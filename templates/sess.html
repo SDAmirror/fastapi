@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/create_session/" method="post">
+    <input type="text" name="name">
+    <input type="submit" name="submit">
+</form>
+{{name}}<br>
+<br>
+<a href="/whoami/">whoami</a><br> <br>
+
+
+<form action="/check/" method="get">
+    <input type="text" name="name">
+    <input type="submit" name="submit">
+</form>
+<form action="/delete_session" method="post">
+    <input type="submit" value="delete">
+</form>
+</body>
+</html>
